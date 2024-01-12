@@ -21,8 +21,8 @@ header > h1{
 body {
 
     background-image: linear-gradient(to bottom, #3648B3,#1f2b6f, #020c43);
-    background-size: cover;
-    height: auto;
+    background-size: 96vh;
+    height: 100%;
     margin: 0px auto 0px;
     
     
@@ -43,7 +43,7 @@ body {
 
 main h2{
     padding-top: 15px;
-    margin: auto ;
+    margin: auto;
     font-style: italic;
     color: white;
     text-shadow: 1px 1px 3px black;
@@ -61,19 +61,15 @@ div > a:hover {
     color: aquamarine;
 }
 
-
 input{
     font-size: 15px;
     margin-bottom: 15px;
 }
  
-
-
 footer{
 background-color: #050a28;
 color: white;
 padding: 10px;
 border-radius: 5px;
 height: 55px;
-
 }
