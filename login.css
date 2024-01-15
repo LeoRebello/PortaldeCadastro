@@ -19,10 +19,11 @@ header > h1{
 }
 
 body {
-
+    position: relative;
     background-image: linear-gradient(to bottom, #3648B3,#1f2b6f, #020c43);
-    background-size: 96vh;
-    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
     margin: 0px auto 0px;
     
     
@@ -57,7 +58,7 @@ div > a {
     color: white;
 }
 
-div > a:hover {
+footer div a:hover {
     color: aquamarine;
 }
 
@@ -67,9 +68,12 @@ input{
 }
  
 footer{
+position: absolute;
+width: 100%;
 background-color: #050a28;
+bottom: 0;
 color: white;
-padding: 10px;
-border-radius: 5px;
+line-height: 55px;
 height: 55px;
+padding-left: 10px;
 }
