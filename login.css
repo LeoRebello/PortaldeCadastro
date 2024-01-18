@@ -8,13 +8,13 @@ font-family: 'tektur', serif;
 
 html, body {
     position: relative;
-    background-image: url('/imagens/fundo001.jpg');
+    background-image: url('../imagens/fundo001.jpg');
     background-position: center center;
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 
-    height: 100vh;
+    height: 97.8vh;
     width: 99.25vw;
     margin: 0;
     
