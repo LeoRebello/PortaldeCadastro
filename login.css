@@ -1,39 +1,38 @@
 @charset "UTF-08";
 @import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400;500;600;800;900&display=swap');
+
 *{
 font-family: 'tektur', serif;
 
 }
 
-
 html, body {
-    position: relative;
-    background-image: url('../imagens/fundo001.jpg');
+
+    height: 97.8vh;
+    width: 99.25vw;
+    background-image: url('imagens/fundo001.jpg');
     background-position: center center;
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
-    height: 97.8vh;
-    width: 99.25vw;
     margin: 0;
     
     
     }
 
     main {
+        top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     position: absolute;
     background-color: #050f4c;
     text-align: center;
-    margin: auto;
+    margin: 0;
     height: 230px;
     max-width: 280px;
     border-radius: 15px;
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.712);
-        top: 50%;
-        left: 50%;
-
-        transform: translate(-50%, -50%);
+    
     }
 
 main h2{
