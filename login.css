@@ -3,12 +3,14 @@
 
 *{
 font-family: 'tektur', serif;
+margin: 0;
+padding: 0;
 
 }
 
 html, body {
 
-    height: 97.8vh;
+    height: 100%;
     width: 99.25vw;
     background-image: url('imagens/fundo001.jpg');
     background-position: center center;
@@ -51,6 +53,10 @@ main input[type=text] {
 }
 main input[type=password] {
     width: 85%;
+}
+
+main button {
+    cursor: pointer;
 }
 
 div > a {
