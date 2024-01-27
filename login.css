@@ -16,8 +16,7 @@ html, body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0;
-    
-    
+    overflow: hidden;
     }
 
     main {
@@ -45,6 +44,13 @@ main h2{
 main hr{
     width: 60%;
     margin-bottom: 15px;
+}
+
+main input[type=text] {
+    width: 85%;
+}
+main input[type=password] {
+    width: 85%;
 }
 
 div > a {
