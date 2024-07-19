@@ -9,13 +9,21 @@
 <body>
     
     <main>
-        <h2>Login</h2> <hr>
-        <div><input placeholder="Usuário" type="text" id="usertxt"></div>
-        <input placeholder="Senha" type="password" id="passtxt">
-        <div id="buttons">
-            <button type="submit">Entrar</button>
-            <button type="button">Cadastre-se</button>
-        </div>
+        <h2>Login</h2> 
+        <form action="login.php" method="post" autocomplete="off">
+            <div>
+                <label for="iuser"></label>
+                <input placeholder="Usuário" type="text" id="iuser" required>
+            </div>
+            <div>   
+                <label for="ipass"></label>
+                <input placeholder="Senha" type="password" id="ipass" required>
+            </div>
+            <div id="buttons">
+                <input type="submit">
+                <input type="button" value="Cadastre-se">
+            </div>
+        </form>
     </main>
     <footer>
         <div>Desenvolvido por Leo Rebello - <a target="_blank" href="https://github.com/LeoRebello"> Github</a> - <a target="_blank" href="https://www.linkedin.com/in/leonardo-rebello-a008301b7/"> Linkedin</a></div>
